@@ -1,4 +1,5 @@
 import React from 'react';
+import './form-input.styles.scss';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 

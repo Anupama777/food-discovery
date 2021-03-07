@@ -7,7 +7,7 @@ import ResataurantContentItem  from '../../components/content-item/restaurant-co
 
 
 
-
+        
  class RestaurantPage extends React.Component {
 
     //this component will receive index through the url
@@ -21,13 +21,12 @@ import ResataurantContentItem  from '../../components/content-item/restaurant-co
 
         this.state = {
 
-            collections: RESTAURANT_DATA[this.props.match.params.id].restaurant_sections
+            collections: RESTAURANT_DATA[this.props.match.params.id].restaurant_sections    
 
-           // collections: RESTAURANT_DATA[2]. restaurant_sections 
+           
 
         }
-       // console.log(RESTAURANT_DATA.restaurant_sections)
-
+    
 
     }
 

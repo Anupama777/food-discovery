@@ -11,7 +11,7 @@ import Header from './components/header/header.component'
 import { auth, createUserProfileDocument } from './firebase/firebase.utils';
 import { setCurrentUser } from './redux/user/user.actions';
 import RestaurantPage from './pages/restaurantpage/restaurantpage.component';
-import  RestaurantDisplay from './pages/restaurantdisplay/restaurantdisplay.component';
+
 
 class App extends React.Component {
   
@@ -23,7 +23,7 @@ class App extends React.Component {
           <div>
             <Route exact path='/' component={HomePage} />
             <Route exact path="/restaurantpage/:id"  component={RestaurantPage}/>
-             {/* <Route exact path="/restaurantpage" component={RestaurantDisplay} />  */}
+          
             <Route
               exact
               path='/signin'
